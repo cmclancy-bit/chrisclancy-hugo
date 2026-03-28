@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<article class="single">
+  <div class="single-inner">
+
+    <a class="back-link" href="{{ "/" | relURL }}">← All posts</a>
+
+    <!-- Meta row -->
+    <div class="single-meta">
+      {{ with .Params.tags }}
+        {{ range . }}
+        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>
+        {{ end }}
+      {{ end }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      <span class="dot">·</span>
+      <span>{{ .ReadingTime }} min read</span>
+    </div>
+
+    <h1>{{ .Title }}</h1>
+
+    <!-- Hero image -->
+    {{ with .Params.image }}
+    <div class="single-hero-img">
+      <img src="{{ . | relURL }}" alt="{{ $.Title }}" />
+    </div>
+    {{ end }}
+
+    <!-- Post body -->
+    <div class="prose">
+      {{ .Content }}
+    </div>
+
+    <!-- Tag list at bottom -->
+    {{ with .Params.tags }}
+    <div class="post-tags-footer">
+      {{ range . }}
+      <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+  </div>
+</article>
+
+{{ end }}

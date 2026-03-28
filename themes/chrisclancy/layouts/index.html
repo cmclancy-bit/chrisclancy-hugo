@@ -1,0 +1,107 @@
+{{ define "main" }}
+
+<!-- ── HERO ─────────────────────────────────── -->
+<div class="hero">
+  <h1>{{ .Site.Params.tagline | markdownify }}</h1>
+  <p>{{ .Site.Params.description }}</p>
+</div>
+
+<!-- ── TAG FILTER ────────────────────────────── -->
+{{- $allTags := slice -}}
+{{- range (where .Site.RegularPages "Section" "posts") -}}
+  {{- range .Params.tags -}}
+    {{- $allTags = $allTags | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $allTags = $allTags | uniq | sort -}}
+
+<div class="tag-row" id="tag-filter">
+  <button class="tag active" data-tag="all">All</button>
+  {{ range $allTags }}
+  <button class="tag" data-tag="{{ . | urlize }}">{{ . }}</button>
+  {{ end }}
+</div>
+
+<!-- ── POST GRID ─────────────────────────────── -->
+<div class="section-label">Latest</div>
+
+<div class="posts" id="post-grid">
+  {{- $posts := where .Site.RegularPages "Section" "posts" -}}
+  {{- range $i, $post := $posts -}}
+  <div class="post-grid-item" data-tags="{{ range $post.Params.tags }}{{ . | urlize }} {{ end }}">
+    {{- if eq $i 0 -}}
+      {{/* First post gets the featured (wide) treatment */}}
+      <a class="post-card featured" href="{{ $post.Permalink }}">
+        {{ with $post.Params.image }}
+        <div class="card-img">
+          <img src="{{ . | relURL }}" alt="{{ $post.Title }}" loading="eager" />
+        </div>
+        {{ else }}
+        <div class="card-img card-img--placeholder">{{ with $post.Params.emoji }}{{ . }}{{ else }}✍️{{ end }}</div>
+        {{ end }}
+        <div class="card-body">
+          {{ with $post.Params.tags }}<div class="card-tags">{{ range . }}<span class="card-tag">{{ . }}</span>{{ end }}</div>{{ end }}
+          <div class="card-title">{{ $post.Title }}</div>
+          <div class="card-excerpt">{{ with $post.Description }}{{ . }}{{ else }}{{ $post.Summary | truncate 180 }}{{ end }}</div>
+          <div class="card-meta">
+            <time datetime="{{ $post.Date.Format "2006-01-02" }}">{{ $post.Date.Format "January 2, 2006" }}</time>
+            <span class="dot">·</span>
+            <span>{{ $post.ReadingTime }} min read</span>
+          </div>
+        </div>
+      </a>
+    {{- else -}}
+      <a class="post-card" href="{{ $post.Permalink }}">
+        {{ with $post.Params.image }}
+        <div class="card-img">
+          <img src="{{ . | relURL }}" alt="{{ $post.Title }}" loading="lazy" />
+        </div>
+        {{ else }}
+        <div class="card-img card-img--placeholder">{{ with $post.Params.emoji }}{{ . }}{{ else }}✍️{{ end }}</div>
+        {{ end }}
+        <div class="card-body">
+          {{ with $post.Params.tags }}<div class="card-tags">{{ range . }}<span class="card-tag">{{ . }}</span>{{ end }}</div>{{ end }}
+          <div class="card-title">{{ $post.Title }}</div>
+          <div class="card-excerpt">{{ with $post.Description }}{{ . }}{{ else }}{{ $post.Summary | truncate 160 }}{{ end }}</div>
+          <div class="card-meta">
+            <time datetime="{{ $post.Date.Format "2006-01-02" }}">{{ $post.Date.Format "January 2, 2006" }}</time>
+            <span class="dot">·</span>
+            <span>{{ $post.ReadingTime }} min read</span>
+          </div>
+        </div>
+      </a>
+    {{- end -}}
+  </div>
+  {{- end }}
+</div>
+
+<div style="height: 4rem;"></div>
+
+<!-- ── TAG FILTER JS ─────────────────────────── -->
+<script>
+  const filterBtns = document.querySelectorAll('#tag-filter .tag');
+  const items      = document.querySelectorAll('#post-grid .post-grid-item');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const tag = btn.dataset.tag;
+
+      items.forEach(item => {
+        if (tag === 'all' || item.dataset.tags.includes(tag)) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      // Re-apply "featured" only to first visible card
+      const visible = [...items].filter(i => i.style.display !== 'none');
+      items.forEach(i => i.querySelector('.post-card')?.classList.remove('featured'));
+      if (visible[0]) visible[0].querySelector('.post-card')?.classList.add('featured');
+    });
+  });
+</script>
+
+{{ end }}

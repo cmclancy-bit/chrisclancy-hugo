@@ -1,0 +1,35 @@
+baseURL = 'https://chrisclancy.com/'
+languageCode = 'en-us'
+title = 'ChrisClancy.com'
+theme = 'chrisclancy'
+
+[params]
+  tagline    = "Ideas, insights, and imagination."
+  description = "Writing on content design, UX, Figma, and the craft of clear communication."
+  author     = "Chris Clancy"
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  style              = "monokai"
+  noClasses          = true
+  lineNos            = false
+  codeFences         = true
+
+[pagination]
+  pagerSize = 12
+
+[[menus.main]]
+  name   = "Content Design"
+  url    = "/tags/content-design/"
+  weight = 10
+
+[[menus.main]]
+  name   = "Privacy"
+  url    = "/privacy/"
+  weight = 20

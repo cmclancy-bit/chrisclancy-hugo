@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<div class="hero hero--compact">
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p>{{ . }}</p>{{ end }}
+</div>
+
+<div class="posts">
+  {{ range .Pages }}
+  <div class="post-grid-item">
+    {{ partial "post-card.html" . }}
+  </div>
+  {{ end }}
+</div>
+
+<div style="height: 4rem;"></div>
+
+{{ end }}
