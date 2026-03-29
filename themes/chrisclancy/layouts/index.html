@@ -8,7 +8,7 @@
 
 <!-- ── TAG FILTER ────────────────────────────── -->
 {{- $allTags := slice -}}
-{{- range (where .Site.RegularPages "Section" "posts") -}}
+{{- range where .Site.RegularPages "Section" "ne" "" -}}
   {{- range .Params.tags -}}
     {{- $allTags = $allTags | append . -}}
   {{- end -}}
@@ -26,7 +26,7 @@
 <div class="section-label">Latest</div>
 
 <div class="posts" id="post-grid">
-  {{- $posts := where .Site.RegularPages "Section" "posts" -}}
+  {{- $posts := .Site.RegularPages -}}
   {{- range $i, $post := $posts -}}
   <div class="post-grid-item" data-tags="{{ range $post.Params.tags }}{{ . | urlize }} {{ end }}">
     {{- if eq $i 0 -}}
