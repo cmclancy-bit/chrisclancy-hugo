@@ -25,52 +25,29 @@
 <!-- ── POST GRID ─────────────────────────────── -->
 <div class="section-label">Latest</div>
 
-<div class="posts" id="post-grid">
-  {{- $posts := .Site.RegularPages -}}
-  {{- range $i, $post := $posts -}}
-  <div class="post-grid-item" data-tags="{{ range $post.Params.tags }}{{ . | urlize }} {{ end }}">
-    {{- if eq $i 0 -}}
-      {{/* First post gets the featured (wide) treatment */}}
-      <a class="post-card featured" href="{{ $post.Permalink }}">
-        {{ with $post.Params.image }}
-        <div class="card-img">
-          <img src="{{ . | relURL }}" alt="{{ $post.Title }}" loading="eager" />
+<div class="posts posts--list" id="post-grid">
+  {{- $posts := first 5 (where .Site.RegularPages "Section" "ne" "") -}}
+  {{- range $posts -}}
+  <div class="post-grid-item" data-tags="{{ range .Params.tags }}{{ . | urlize }} {{ end }}">
+    <a class="post-card" href="{{ .Permalink }}">
+      {{ with .Params.image }}
+      <div class="card-img">
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" />
+      </div>
+      {{ else }}
+      <div class="card-img card-img--placeholder">{{ with .Params.emoji }}{{ . }}{{ else }}✍️{{ end }}</div>
+      {{ end }}
+      <div class="card-body">
+        {{ with .Params.tags }}<div class="card-tags">{{ range . }}<span class="card-tag">{{ . }}</span>{{ end }}</div>{{ end }}
+        <div class="card-title">{{ .Title }}</div>
+        <div class="card-excerpt">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | truncate 160 }}{{ end }}</div>
+        <div class="card-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          <span class="dot">·</span>
+          <span>{{ .ReadingTime }} min read</span>
         </div>
-        {{ else }}
-        <div class="card-img card-img--placeholder">{{ with $post.Params.emoji }}{{ . }}{{ else }}✍️{{ end }}</div>
-        {{ end }}
-        <div class="card-body">
-          {{ with $post.Params.tags }}<div class="card-tags">{{ range . }}<span class="card-tag">{{ . }}</span>{{ end }}</div>{{ end }}
-          <div class="card-title">{{ $post.Title }}</div>
-          <div class="card-excerpt">{{ with $post.Description }}{{ . }}{{ else }}{{ $post.Summary | truncate 180 }}{{ end }}</div>
-          <div class="card-meta">
-            <time datetime="{{ $post.Date.Format "2006-01-02" }}">{{ $post.Date.Format "January 2, 2006" }}</time>
-            <span class="dot">·</span>
-            <span>{{ $post.ReadingTime }} min read</span>
-          </div>
-        </div>
-      </a>
-    {{- else -}}
-      <a class="post-card" href="{{ $post.Permalink }}">
-        {{ with $post.Params.image }}
-        <div class="card-img">
-          <img src="{{ . | relURL }}" alt="{{ $post.Title }}" loading="lazy" />
-        </div>
-        {{ else }}
-        <div class="card-img card-img--placeholder">{{ with $post.Params.emoji }}{{ . }}{{ else }}✍️{{ end }}</div>
-        {{ end }}
-        <div class="card-body">
-          {{ with $post.Params.tags }}<div class="card-tags">{{ range . }}<span class="card-tag">{{ . }}</span>{{ end }}</div>{{ end }}
-          <div class="card-title">{{ $post.Title }}</div>
-          <div class="card-excerpt">{{ with $post.Description }}{{ . }}{{ else }}{{ $post.Summary | truncate 160 }}{{ end }}</div>
-          <div class="card-meta">
-            <time datetime="{{ $post.Date.Format "2006-01-02" }}">{{ $post.Date.Format "January 2, 2006" }}</time>
-            <span class="dot">·</span>
-            <span>{{ $post.ReadingTime }} min read</span>
-          </div>
-        </div>
-      </a>
-    {{- end -}}
+      </div>
+    </a>
   </div>
   {{- end }}
 </div>

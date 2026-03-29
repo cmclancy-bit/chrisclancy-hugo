@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Stop Fighting Figma A Content Designers Toolkit for Working Smarter.md",
+                "file": "SETUP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stop Fighting Figma A Content Designers Toolkit for Working Smarter"
+              "title": "SETUP"
             }
           }
         ],
@@ -202,17 +202,18 @@
   },
   "active": "28f2ca7edb3bd0ee",
   "lastOpenFiles": [
+    "templates/standard-post.md",
+    "SETUP.md",
+    "content/posts/Stop Fighting Figma A Content Designers Toolkit for Working Smarter.md",
+    "content/posts/Figma pro tip share links like a boss.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
     "static/images/Order_from_chaos.png",
     "public/images/Order_from_chaos.png",
-    "content/posts/Figma pro tip share links like a boss.md",
-    "content/posts/Stop Fighting Figma A Content Designers Toolkit for Working Smarter.md",
     "public/posts/stop-fighting-figma-a-content-designers-toolkit-for-working-smarter/index.html",
     "public/posts/stop-fighting-figma-a-content-designers-toolkit-for-working-smarter",
     "public/posts/untitled/index.html",
     "public/posts/untitled",
-    "Untitled 2.md",
-    "templates/standard-post.md",
-    "Untitled 1.md",
     "public/tags/tech-tips/index.xml",
     "public/tags/tech-tips/index.html",
     "public/tags/tech-tips",
@@ -223,7 +224,6 @@
     "public/ai",
     "content/ai/_index.md",
     "content/etc/_index.md",
-    "templates/quick-take.md",
-    "SETUP.md"
+    "templates/quick-take.md"
   ]
 }
