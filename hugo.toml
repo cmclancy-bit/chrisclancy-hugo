@@ -4,8 +4,8 @@ title = 'ChrisClancy.com'
 theme = 'chrisclancy'
 
 [params]
-  tagline    = "Ideas, insights, and imagination."
-  description = "Writing on content design, UX, Figma, and the craft of clear communication."
+  tagline    = "Putting words to work."
+  description = "Content design, UX, AI, and anything else I can't stop thinking about."
   author     = "Chris Clancy"
 
 [taxonomies]
@@ -30,6 +30,11 @@ theme = 'chrisclancy'
   weight = 10
 
 [[menus.main]]
-  name   = "Privacy"
-  url    = "/privacy/"
+  name   = "AI"
+  url    = "/ai/"
+  weight = 15
+
+[[menus.main]]
+  name   = "Etc."
+  url    = "/etc/"
   weight = 20
