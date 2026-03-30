@@ -41,8 +41,14 @@ Now that I'm completely off track it's probably a good time to explain how you c
 
 1. Click the "+" button, or go to File > New Shortcut
 2. Select the Title field and name the new shortcut something memorable. I just called mine (Screenshot Saver).
-3. Search for Take Screenshot and click **enter**
-4. 
+3. Search for Take Screenshot and hit **enter**
+4. Choose **Full screen** or **Interactive**. Interactive allows you select a specific area of the screen for the screenshot.
+5. Search for **Copy to Clipboard** and hit enter
+6. Search for **Save File** and hit **enter**
+7. Select the downward facing chevron to see more options
+8. Uncheck **Ask Where To Save**
+9. Using the Finder, create a screenshots folder somewhere on your Mac. I put mine in Documents folder so it gets synced to iCloud.
+10. 
 
 ## What to take away
 
