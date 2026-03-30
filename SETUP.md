@@ -126,6 +126,17 @@ To trigger a deploy manually (e.g. if auto-sync hasn't run yet), use Claude Code
 push the latest version of the site to github
 ```
 
+OR
+
+   From your project folder in the terminal:                                                             
+
+    cd "/Users/cclancy/Documents/ChrisClancy Site/chrisclancy-hugo"
+    git add -A
+    git commit -m "your message here"
+    git push
+
+  Cloudflare picks it up automatically and deploys in ~20 seconds.
+
 ---
 
 ## Customizing the design
