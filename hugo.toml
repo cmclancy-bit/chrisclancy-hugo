@@ -4,8 +4,8 @@ title = 'ChrisClancy.com'
 theme = 'chrisclancy'
 
 [params]
-  tagline    = "Putting words to work."
-  description = "Content design, UX, AI, and anything else I can't stop thinking about."
+  tagline    = "Putting words to work"
+  description = "Content design, UX, AI, and anything else I can't stop thinking about"
   author     = "Chris Clancy"
 
 [taxonomies]
@@ -38,3 +38,8 @@ theme = 'chrisclancy'
   name   = "Etc."
   url    = "/etc/"
   weight = 30
+
+[[menus.main]]
+  name   = "Portfolio"
+  url    = "/portfolio/"
+  weight = 40

@@ -202,6 +202,12 @@
   },
   "active": "28f2ca7edb3bd0ee",
   "lastOpenFiles": [
+    "public/portfolio/index.xml",
+    "public/portfolio/index.html",
+    "content/portfolio/_index.md",
+    "content/portfolio",
+    "public/portfolio/_index.md",
+    "public/portfolio",
     "templates/standard-post.md",
     "SETUP.md",
     "content/posts/Stop Fighting Figma A Content Designers Toolkit for Working Smarter.md",
@@ -219,9 +225,6 @@
     "public/tags/tech-tips",
     "public/images/Share-Like-A-Boss-edited.png",
     "static/images/Share-Like-A-Boss-edited.png",
-    "public/ai/index.xml",
-    "public/ai/index.html",
-    "public/ai",
     "content/ai/_index.md",
     "content/etc/_index.md",
     "templates/quick-take.md"
