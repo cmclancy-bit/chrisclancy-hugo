@@ -19,7 +19,7 @@ Don't let your screenshots pile up on the Desktop or languish in some random fol
 
 ## Clutter abounds. And there's no good reason for it.
 
-I take hundreds of screenshots every day, and until recently those files littered my desktop creating visual and mental clutter. It was hard to justify spending the time to clean them up and often I'd just resort to deleting everything and then realize later on that it actually would have been valuable to have a reference of some of the work I'd done earlier in the week. I'll be going much more in depth about versioning in another post.
+I take hundreds of screenshots every day, and until recently those files littered my desktop creating visual and mental clutter. It was hard to justify spending the time to clean them up and often I'd just resort to deleting everything and then realize later on that it actually would have been valuable to have a reference of some of the work I'd done earlier in the week. I'll be going much more in-depth about versioning in another post.
 
 My point is that all of this isn't necessary. Your computer was meant to take care of this on your behalf. One of the most interesting things about AI, not to get too far off track, is that it's really raised my expectations about what a computer can (and should) do to help you get your work done. I've spent so much of my career working on computers that seem kind of "compromised", that I've come to think of these kinds of inconveniences as just something to accept.
 
@@ -31,7 +31,7 @@ Now that I'm completely off track it's probably a good time to explain how you c
 
 ### Start by figuring out where you want to store screenshots
 
-*This one thing* is probably the most important step you can take to clean up the clutter. If don't do anything else, this one thing will keep things far more organized, and that is being intentional about where you put your screenshots in the first place.
+*This one thing* is probably the most important step you can take to clean up the clutter. If you don't do anything else, this one thing will keep things far more organized, and that is being intentional about where you put your screenshots in the first place.
 
 By default, your Mac will dump screenshots on the desktop to add to what's likely already a cluttered mess to begin with. Because screenshots are images, and images are a kind of document, I choose to put mine in the Documents folder in my iCloud Drive. This gets them off the Desktop and into a more logical place where they'll also get backed up automatically.
 
@@ -45,7 +45,7 @@ Just for ease of access, I also typically pin the Screenshots folder to the dock
 
 Next we're going to create a macOS shortcut that takes an interactive screenshot, saves it, and then uses Apple Intelligence to generate a descriptive filename and rename the file automatically.
 
-If this seems too time consuming or you'd rather just get to the chase, feel free to [download this shortcut](https://www.icloud.com/shortcuts/869172390aaf4564abe3d757b945c200) and switch up the file path to work with your setup.
+If this seems too time consuming or you'd rather just cut to the chase, feel free to [download this shortcut](https://www.icloud.com/shortcuts/869172390aaf4564abe3d757b945c200) and switch up the file path to work with your setup.
 
 1. Open the **Shortcuts** app on your Mac and create a new shortcut.
 2. Name it **Screenshot Saver**, or whatever you like.
