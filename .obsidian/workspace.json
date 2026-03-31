@@ -39,14 +39,12 @@
             "id": "3997aae458f0d46a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "content/posts/Use Shortcuts and Apple Intelligence to take, access and organize your screenshots like a pro.md",
-                "mode": "source",
-                "source": false
+                "file": "Images/Pasted image 20260330222352.png"
               },
-              "icon": "lucide-file",
-              "title": "Use Shortcuts and Apple Intelligence to take, access and organize your screenshots like a pro"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260330222352"
             }
           }
         ],
@@ -123,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Use Shortcuts and Apple Intelligence to take, access and organize your screenshots like a pro.md",
+                "file": "Images/Pasted image 20260330222352.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Use Shortcuts and Apple Intelligence to take, access and organize your screenshots like a pro"
+              "title": "Backlinks for Pasted image 20260330222352"
             }
           },
           {
@@ -214,19 +212,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3997aae458f0d46a",
+  "active": "ed4cf1c1212b5a52",
   "lastOpenFiles": [
-    "Pasted image 20260330222352.png",
+    "Images/2026-03-30_21-13-14.png",
+    "Images/Pasted image 20260330212240.png",
+    "Images",
+    "static/images/ProScreenshots.png",
+    "static/images/Pasted image 20260330222352.png",
+    "static/images/Pasted image 20260330214824.png",
+    "static/images/Pasted image 20260330212424.png",
+    "static/images/Pasted image 20260330212240.png",
+    "static/images/2026-03-30_21-24-22.png",
+    "static/images/2026-03-30_21-13-14.png",
+    "public/images/Pasted image 20260330222352.png",
+    "public/images/Pasted image 20260330214824.png",
+    "content/posts/Your Mac Has a Secret Screenshot Manager. Here's How to Unlock It..md",
+    "public/posts/your-mac-has-a-secret-screenshot-manager.-heres-how-to-unlock-it./index.html",
+    "public/posts/your-mac-has-a-secret-screenshot-manager.-heres-how-to-unlock-it.",
     "public/posts/use-shortcuts-and-apple-intelligence-to-take-access-and-organize-your-screenshots-like-a-pro/index.html",
     "public/posts/use-shortcuts-and-apple-intelligence-to-take-access-and-organize-your-screenshots-like-a-pro",
-    "Pasted image 20260330214954.png",
-    "content/posts/Use Shortcuts and Apple Intelligence to take, access and organize your screenshots like a pro.md",
     "Pasted image 20260330214954.png.sb-c7e2726d-wDQo1V",
-    "Pasted image 20260330214824.png",
-    "2026-03-30_21-13-14.png",
-    "2026-03-30_21-24-22.png",
-    "Pasted image 20260330212424.png",
-    "Pasted image 20260330212240.png",
     "SETUP.md",
     "content/posts/Stop Fighting Figma A Content Designers Toolkit for Working Smarter.md",
     "content/posts/Figma pro tip share links like a boss.md",
@@ -235,17 +240,10 @@
     "public/tags/ai",
     "templates/standard-post.md",
     "public/portfolio/index.xml",
-    "public/portfolio/index.html",
     "content/portfolio/_index.md",
-    "content/portfolio",
     "public/portfolio/_index.md",
-    "public/portfolio",
     "Untitled 2.md",
     "Untitled 1.md",
-    "static/images/Order_from_chaos.png",
-    "public/images/Order_from_chaos.png",
-    "public/images/Share-Like-A-Boss-edited.png",
-    "static/images/Share-Like-A-Boss-edited.png",
     "content/ai/_index.md",
     "content/etc/_index.md",
     "templates/quick-take.md"

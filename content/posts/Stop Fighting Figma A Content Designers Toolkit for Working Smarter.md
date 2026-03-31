@@ -1,5 +1,5 @@
 ---
-title: "Stop Fighting Figma: A Content Designer's Toolkit for Working Smarter"
+title: "Stop fighting Figma: a content designer's toolkit for working smarter"
 date: 2026-03-29
 draft: false
 description: ""

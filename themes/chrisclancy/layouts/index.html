@@ -72,11 +72,6 @@
           item.style.display = 'none';
         }
       });
-
-      // Re-apply "featured" only to first visible card
-      const visible = [...items].filter(i => i.style.display !== 'none');
-      items.forEach(i => i.querySelector('.post-card')?.classList.remove('featured'));
-      if (visible[0]) visible[0].querySelector('.post-card')?.classList.add('featured');
     });
   });
 </script>

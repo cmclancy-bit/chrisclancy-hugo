@@ -19,7 +19,7 @@
   --max-w:      720px;
   --wide-w:     1100px;
   --font-sans:  'Inter', system-ui, -apple-system, sans-serif;
-  --font-serif: 'Lora', Georgia, 'Times New Roman', serif;
+  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --radius:     12px;
   --transition: 0.18s ease;
 }
@@ -276,10 +276,9 @@ nav a:hover  { background: var(--surface); }
 }
 
 .posts--list .card-img {
-  width:        220px;
-  flex-shrink:  0;
-  aspect-ratio: auto;
-  min-height:   140px;
+  width:       220px;
+  height:      160px;
+  flex-shrink: 0;
 }
 
 /* ── NAV TOGGLE (mobile) ──────────────────────────────────── */
@@ -477,7 +476,7 @@ nav a:hover  { background: var(--surface); }
 /* ── PROSE (post body) ────────────────────────────────────── */
 
 .prose {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size:   1.05rem;
   line-height: 1.8;
   color:       var(--text);
