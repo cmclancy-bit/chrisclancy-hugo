@@ -45,7 +45,7 @@ Just for ease of access, I also typically pin the Screenshots folder to the dock
 
 Next we're going to create a macOS shortcut that takes an interactive screenshot, saves it, and then uses Apple Intelligence to generate a descriptive filename and rename the file automatically.
 
-If this seems too time consuming or you'd rather just get to the chase, feel free to [download this shortcut](https://chrisclancy.com/shortcuts/ScreenshotSaver.zip) and switch up the file path to work with your setup.
+If this seems too time consuming or you'd rather just get to the chase, feel free to [download this shortcut](https://www.icloud.com/shortcuts/869172390aaf4564abe3d757b945c200) and switch up the file path to work with your setup.
 
 1. Open the **Shortcuts** app on your Mac and create a new shortcut.
 2. Name it **Screenshot Saver**, or whatever you like.
