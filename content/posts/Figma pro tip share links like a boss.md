@@ -2,10 +2,14 @@
 title: "Figma pro tip: share links like a boss"
 date: 2025-07-17
 draft: false
-description: "Everybody knows how to send a Figma link, but did you know you can make links that point directly to individual frames, pages or elements in your design? Master these skills to get streamlined feedback."
-tags: ["Content Design", "Figma", "Productivity", "Tech Tips"]
-image: "/images/Share-Like-A-Boss-edited.png"
-emoji: "🎯"
+description: Everybody knows how to send a Figma link, but did you know you can make links that point directly to individual frames, pages or elements in your design? Master these skills to get streamlined feedback.
+tags:
+  - Content Design
+  - Figma
+  - Productivity
+  - Tech Tips
+image: /images/Share-Like-A-Boss.png
+emoji: 🎯
 ---
 
 Everybody knows how to send a Figma link, but did you know you can make links that point directly to individual frames, pages or elements in your design? Master these skills to get streamlined feedback and showcase your work like a pro.
