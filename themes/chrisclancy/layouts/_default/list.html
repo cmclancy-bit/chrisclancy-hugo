@@ -1,5 +1,9 @@
 {{ define "main" }}
 
+<div class="posts" style="padding-top:1.5rem; padding-bottom:0;">
+  <a class="back-link" href="{{ "/" | relURL }}">← All posts</a>
+</div>
+
 <div class="hero hero--compact">
   <h1>{{ .Title }}</h1>
   {{ with .Description }}<p>{{ . }}</p>{{ end }}

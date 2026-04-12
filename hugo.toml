@@ -26,7 +26,7 @@ theme = 'chrisclancy'
 
 [[menus.main]]
   name   = "AI"
-  url    = "/ai/"
+  url    = "/tags/ai/"
   weight = 10
 
 [[menus.main]]

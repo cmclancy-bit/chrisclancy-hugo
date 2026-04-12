@@ -6,6 +6,7 @@ description: Everybody knows how to send a Figma link, but did you know you can 
 tags:
   - Figma
   - Productivity
+  - Content Design
 image: /images/Share-Like-A-Boss.png
 emoji: 🎯
 ---
