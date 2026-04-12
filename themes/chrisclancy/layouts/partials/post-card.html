@@ -16,12 +16,6 @@
   {{ end }}
 
   <div class="card-body">
-    {{ with .Params.tags }}
-    <div class="card-tags">
-      {{ range . }}<span class="card-tag">{{ . }}</span>{{ end }}
-    </div>
-    {{ end }}
-
     <div class="card-title">{{ .Title }}</div>
 
     <div class="card-excerpt">
