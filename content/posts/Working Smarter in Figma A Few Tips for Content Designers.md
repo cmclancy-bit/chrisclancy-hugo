@@ -1,18 +1,18 @@
 ---
-title: "Stop fighting Figma: a content designer's toolkit for working smarter"
+title: 10 Tips to instantly sharpen your content design workflow in Figma
 date: 2026-03-29
 draft: false
 description: ""
 tags:
   - Figma
   - Productivity
-image: /images/Order_from_chaos.png
+image: /images/Clockwork.png
 emoji: ✍️
 ---
 
-Everyone has their own way of working on content in Figma, and while opening a new tab and simply diving into an existing design might seem like the fastest approach, taking the time to set up your working environment in a more intentional way can strip away layers of friction and frustration and save you time.
+Everyone has their own way of working on content in Figma, and while opening a new tab and simply diving into an existing design might be the quickest approach, taking the time to set up your working environment in a more intentional way can strip away layers of friction and frustration, and save you time.
 
-I've put together this collection of tips and tricks that I rely on to streamline my own processes as a content designer and content strategist. Hopefully they'll be of some use to you in your own practice.
+Here's my collection of top-ten tips and tricks I use daily to streamline my content design workflow.
 
 ---
 
