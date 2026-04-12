@@ -6,7 +6,7 @@ description: How to use macOS Shortcuts and Apple Intelligence to automatically 
 tags:
   - AI
   - Productivity
-  - Tech Tips
+  - macOS
 image: /images/Zen.png
 emoji: 📸
 ---

@@ -1,13 +1,11 @@
 ---
-title: "Figma pro tip: share links like a boss"
+title: "Figma pro tip: Share links like a boss"
 date: 2025-07-17
 draft: false
 description: Everybody knows how to send a Figma link, but did you know you can make links that point directly to individual frames, pages or elements in your design? Master these skills to get streamlined feedback.
 tags:
-  - Content Design
   - Figma
   - Productivity
-  - Tech Tips
 image: /images/Share-Like-A-Boss.png
 emoji: 🎯
 ---
@@ -33,10 +31,6 @@ When you share a top-level Figma file URL, you're handing your stakeholder a map
 Combine frame links with Figma's presentation mode by appending `?mode=design` or `?mode=prototype` to any URL. You can also use Figma's embed widget to drop a live, interactive preview directly into Notion, Confluence or any tool that supports iframes.
 
 Small habits like these add up. Every time you share a link that lands your reviewer exactly where you need them, you're saving a round of "wait, which screen are you referring to?" — and that's a win for everyone.
-
-# Mastering Figma link sharing
-
-Everybody knows how to send a Figma link, but did you know you can make Figma links that point directly to individual frames, pages, or elements in your design? Master these skills to get streamlined feedback and showcase your work like a pro.
 
 ---
 
