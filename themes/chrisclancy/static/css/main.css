@@ -19,7 +19,7 @@
   --max-w:      720px;
   --wide-w:     1100px;
   --font-sans:  'Inter', system-ui, -apple-system, sans-serif;
-  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
   --radius:     12px;
   --transition: 0.18s ease;
 }
