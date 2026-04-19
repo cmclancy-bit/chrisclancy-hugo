@@ -39,7 +39,3 @@ theme = 'chrisclancy'
   url    = "/etc/"
   weight = 30
 
-[[menus.main]]
-  name   = "Portfolio"
-  url    = "/portfolio/"
-  weight = 40
