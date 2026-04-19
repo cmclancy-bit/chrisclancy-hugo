@@ -1,5 +1,6 @@
 ---
 title: Your Mac has a secret screenshot manager. Here's how to unlock it.
+slug: your-mac-has-a-secret-screenshot-manager-heres-how-to-unlock-it
 date: 2026-03-30
 draft: false
 description: How to use macOS Shortcuts and Apple Intelligence to automatically save, name, and organize your screenshots.
@@ -94,7 +95,7 @@ First, you'll want to be sure to deactivate your default keyboard shortcut for t
 6. Click Done.
 
 
-![Alt text describing the image](/images/Saver_Shortcut.png)
+![Keyboard shortcut assignment for Screenshot Saver in macOS System Settings](/images/Saver_Shortcut.png)
 ## For some perspective
 
 This workflow isn't something that would have been possible, *or even imaginable*, just a few years ago. The bigger story here is that in many ways, AI can really empower our work in big and small ways that make computers more useful than they've ever been before. And I think it can be easy to lose sight of this and get caught up in the hype or "doomerism" that we're constantly being subjected to around AI.

@@ -1,10 +1,12 @@
 {{ define "main" }}
 
+{{ if eq .Kind "taxonomy" }}
 <div class="posts" style="padding-top:1.5rem; padding-bottom:0;">
   <a class="back-link" href="{{ "/" | relURL }}">← All posts</a>
 </div>
+{{ end }}
 
-<div class="hero hero--compact">
+<div class="hero hero--compact" style="{{ if eq .Kind "taxonomy" }}text-align:left;{{ end }}">
   <h1>{{ .Title }}</h1>
   {{ with .Description }}<p>{{ . }}</p>{{ end }}
 </div>

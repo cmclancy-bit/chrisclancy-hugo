@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="hero">
+  <h1>Tags</h1>
+  <p>Explore content by topic.</p>
+</div>
+
+<div class="tag-row" style="justify-content: center;">
+  {{ range .Data.Terms.Alphabetical }}
+  <a href="{{ .Page.Permalink }}" class="tag">{{ .Page.Title }} &middot; {{ .Count }}</a>
+  {{ end }}
+</div>
+
+<div style="height: 4rem;"></div>
+{{ end }}
