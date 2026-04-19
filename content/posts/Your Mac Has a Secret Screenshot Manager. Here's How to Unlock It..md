@@ -13,7 +13,7 @@ emoji: 📸
 
 ## Use Shortcuts and Apple Intelligence to take, access and organize your screenshots like a pro
 
-Don't let your screenshots pile up on the Desktop or languish in some random folder with nothing more than a timestamp to distinguish them from one another. With Shortcuts and on-device AI you can have your Mac handle your screenshots in the most intelligent way possible — organized and easily accessible from anywhere.
+Don't let your screenshots pile up on the Desktop or languish in some random folder with nothing more than a timestamp to distinguish them from one another. If you have an Apple Silicon-powered Mac (M1+), you can use the Shortcuts app and on-device AI to have your Mac handle your screenshots in the most intelligent way possible — organized and easily accessible from anywhere.
 
 ---
 
@@ -58,9 +58,10 @@ If this seems too time consuming or you'd rather just cut to the chase, feel fre
 9. Turn off **Follow Up** and set Output to **Text**. This sends your screenshot to Apple's on-device/private cloud model to generate the descriptive filename.
 10. Add a **Text** action. Insert the **Response** variable from the Apple Intelligence step. This captures the AI-generated filename as a clean text value for the next action.
 11. Add a **Rename File** action. Set it to rename the **Saved File** to the **Text** output from the previous step. This applies the AI-generated name to your screenshot file.
-12. Run it a few times to make sure it's working the way you intend it to.
+12. Click the info icon in the side panel and select "Use as Quick Action" and "Services Menu". **Important:** Do not assign a keyboard shortcut in this step. We'll get to that later.
+13. Run it a few times to make sure it's working the way you intend it to.
 
-**It should look similar to this when it's done, minus the t-shirt image at the bottom.**
+**It should look similar to this when it's done, minus the t-shirt image at the bottom, of course.**
 
 ![Completed Screenshot Saver shortcut in the Shortcuts app](/images/2026-03-30_21-13-14.png)
 
@@ -76,14 +77,28 @@ That's it — when you run the shortcut, you'll be able to select your screensho
 
 ### But that's not all
 
-Now you have the file with a descriptive title in a dedicated screenshot folder of your choice, and it's also saved in your clipboard. That means you can immediately paste it, or use a clipboard manager to paste it from your clipboard history later on. This is incredibly convenient.
+Now you have the file with a descriptive title in a dedicated screenshot folder of your choice, and it's also saved on your clipboard. That means you can immediately paste it, or use a clipboard manager to paste it from your clipboard history later on. This is *incredibly* convenient.
 
 ### Just a few more details
 
-Now that you have the power, how do you make it easy to remember and access? I recommend turning off your default keyboard shortcut (Shift + ⌘ + 4) and assigning it instead to the macOS shortcut you just created. This works best for me, since I've always used the default keyboard shortcut for screenshots, but you could also add it to the dock, pin it to the menu bar or add it to the services menu. Or all of these if you'd like.
+Now that you have the power, how do you make it easy to remember and access? I recommend turning off your default keyboard shortcut (Shift + ⌘ + 4) and assigning it instead to the macOS shortcut you just created. This works best for me, since I've always used the default keyboard shortcut for screenshots, but this is totally optional. You could just add it to the dock, pin it to the menu bar or add it to the services menu. Or all of these if you'd like.
 
+#### Keyboard shortcut setup 
+
+First, you'll want to be sure deactivate your default keyboard shortcut for taking a screenshot of a selected area, so you can assign it to the new shortcut you just created. Be aware that there's a specific order to follow when you do this to make it work reliably.
+
+1. Go to Settings > Keyboard > Keyboard shortcuts > Screenshots
+2. Deselect "Save picture of selected area as file"
 ![Reassigning the screenshot keyboard shortcut in the Shortcuts app](/images/Pasted%20image%2020260330222352.png)
+3. Next, you need to set up the new keyboard shortcut. 
+4. Go to "Services" and choose the shortcut you just created.
+5. Select the shortcut field on the right and type "Shift + ⌘ + 4"
+6. Click Done.
 
+
+![[Pasted image 20260419085830.png]]
 ## For some perspective
 
 This workflow isn't something that would have been possible, *or even imaginable*, just a few years ago. The bigger story here is that in many ways, AI can really empower our work in big and small ways that make computers more useful than they've ever been before. And I think it can be easy to lose sight of this and get caught up in the hype or "doomerism" that we're constantly being subjected to around AI.
+
+There are incredibly legitimate and useful AI-powered tasks that you can use to make your life easier and more organized, and increasingly they'll be powered on device, just like this one.

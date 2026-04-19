@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Working Smarter in Figma A Few Tips for Content Designers.md",
+                "file": "content/posts/Your Mac Has a Secret Screenshot Manager. Here's How to Unlock It..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Working Smarter in Figma A Few Tips for Content Designers"
+              "title": "Your Mac Has a Secret Screenshot Manager. Here's How to Unlock It."
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Content-Design",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -188,6 +187,8 @@
   },
   "active": "2f475c37fdc71dd5",
   "lastOpenFiles": [
+    "Images/Pasted image 20260419085830.png",
+    "content/posts/Working Smarter in Figma A Few Tips for Content Designers.md",
     "2026-04-11-232134-start-the-local-server-and-show-me-the-latest-ver.txt",
     "themes/chrisclancy/layouts/_default/rss.xml",
     "content/posts/Your Mac Has a Secret Screenshot Manager. Here's How to Unlock It..md",
@@ -197,10 +198,8 @@
     "public/tags/#macos/index.xml",
     "public/tags/#macos/index.html",
     "public/tags/#macos",
-    "content/posts/Working Smarter in Figma A Few Tips for Content Designers.md",
     "public/tags/#content-design/index.xml",
     "public/tags/#content-design/index.html",
-    "public/tags/#content-design",
     "content/posts/Figma pro tip share links like a boss.md",
     "public/images/Share-Like-A-Boss.png",
     "static/images/Share-Like-A-Boss.png",
