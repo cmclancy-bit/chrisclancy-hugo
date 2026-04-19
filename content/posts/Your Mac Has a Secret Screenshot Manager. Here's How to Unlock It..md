@@ -85,7 +85,7 @@ Now that you have the power, how do you make it easy to remember and access? I r
 
 #### Keyboard shortcut setup 
 
-First, you'll want to be sure deactivate your default keyboard shortcut for taking a screenshot of a selected area, so you can assign it to the new shortcut you just created. Be aware that there's a specific order to follow when you do this to make it work reliably.
+First, you'll want to be sure to deactivate your default keyboard shortcut for taking a screenshot of a selected area, so you can assign it to the new shortcut you just created. Be aware that there's a specific order to follow when you do this to make it work reliably.
 
 1. Go to Settings > Keyboard > Keyboard shortcuts > Screenshots
 2. Deselect "Save picture of selected area as file"
@@ -96,7 +96,7 @@ First, you'll want to be sure deactivate your default keyboard shortcut for taki
 6. Click Done.
 
 
-![[Pasted image 20260419085830.png]]
+![Alt text describing the image](/images/Saver_Shortcut.png)
 ## For some perspective
 
 This workflow isn't something that would have been possible, *or even imaginable*, just a few years ago. The bigger story here is that in many ways, AI can really empower our work in big and small ways that make computers more useful than they've ever been before. And I think it can be easy to lose sight of this and get caught up in the hype or "doomerism" that we're constantly being subjected to around AI.
