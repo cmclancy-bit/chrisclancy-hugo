@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/standard-post.md",
-                "mode": "preview",
+                "file": "content/posts/What's the deal with AI automation?.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "standard-post"
+              "title": "What's the deal with AI automation?"
             }
           }
         ]
@@ -185,9 +185,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ed4cf1c1212b5a52",
+  "active": "2f475c37fdc71dd5",
   "lastOpenFiles": [
     "templates/standard-post.md",
+    "content/posts/What's the deal with AI automation?.md",
     "Next.md",
     "content/tags/macos/_index.md",
     "content/posts/Your Mac Has a Secret Screenshot Manager. Here's How to Unlock It..md",
