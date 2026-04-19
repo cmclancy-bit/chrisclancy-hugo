@@ -34,8 +34,4 @@ theme = 'chrisclancy'
   url    = "/tags/content-design/"
   weight = 20
 
-[[menus.main]]
-  name   = "Etc."
-  url    = "/etc/"
-  weight = 30
 

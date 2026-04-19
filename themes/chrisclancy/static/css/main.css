@@ -635,10 +635,11 @@ nav a:hover  { background: var(--surface); }
 
   .site-header nav {
     display:        none;
-    position:       absolute;
+    position:       fixed;
     top:            60px;
     left:           0;
     right:          0;
+    z-index:        200;
     background:     var(--bg);
     border-bottom:  1px solid var(--border);
     flex-direction: column;
