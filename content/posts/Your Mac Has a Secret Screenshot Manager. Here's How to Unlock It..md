@@ -1,7 +1,7 @@
 ---
 title: Your Mac has a secret screenshot manager. Here's how to unlock it.
 date: 2026-03-30
-draft: true
+draft: false
 description: How to use macOS Shortcuts and Apple Intelligence to automatically save, name, and organize your screenshots.
 tags:
   - AI
