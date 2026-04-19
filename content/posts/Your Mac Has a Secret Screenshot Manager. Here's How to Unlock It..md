@@ -1,7 +1,7 @@
 ---
 title: Your Mac has a secret screenshot manager. Here's how to unlock it.
 date: 2026-03-30
-draft: false
+draft: true
 description: How to use macOS Shortcuts and Apple Intelligence to automatically save, name, and organize your screenshots.
 tags:
   - AI
@@ -21,15 +21,13 @@ Don't let your screenshots pile up on the Desktop or languish in some random fol
 
 I take hundreds of screenshots every day, and until recently those files littered my desktop creating visual and mental clutter. It was hard to justify spending the time to clean them up and often I'd just resort to deleting everything and then realize later on that it actually would have been valuable to have a reference of some of the work I'd done earlier in the week. I'll be going much more in-depth about versioning in another post.
 
-My point is that all of this isn't necessary. Your computer was meant to take care of this on your behalf. One of the most interesting things about AI, not to get too far off track, is that it's really raised my expectations about what a computer can (and should) do to help you get your work done. I've spent so much of my career working on computers that seem kind of "compromised", that I've come to think of these kinds of inconveniences as just something to accept.
+My point, is that all of this isn't necessary. Your computer was meant to take care of this on your behalf. So many of us have spent our careers working on computers that seem kind of "compromised" when it comes to these kinds of inconveniences. After awhile it's just something that learn to accept.
 
-## How it's supposed to work
+## How it's actually supposed to work
 
-Unless you've been living under a rock (or you're a Windows or Linux user), you probably already know that the Mac has a number of ways you can automate a complex task. It's just that until *very* recently it could require a lot of trial and error. AppleScript, Automator, and shell scripting have been around for decades, but macOS Shortcuts and AI (literally everywhere) has sparked a completely new way of looking at and using these tools.
+Unless you've been living under a rock (or you're a Windows or Linux user), you probably already know that the macOS has a number of ways you can automate a complex task. It's just that until *very* recently it could require a lot of trial and error. AppleScript, Automator, and shell scripting have been around for decades, but macOS Shortcuts and AI (literally everywhere) has sparked a completely new way of looking at and using these tools.
 
-Now that I'm completely off track it's probably a good time to explain how you can *actually* solve the problem of managing your screenshots. So without further ado...
-
-### Start by figuring out where you want to store screenshots
+**Start by figuring out where you want to store screenshots**
 
 *This one thing* is probably the most important step you can take to clean up the clutter. If you don't do anything else, this one thing will keep things far more organized, and that is being intentional about where you put your screenshots in the first place.
 
@@ -41,7 +39,7 @@ Just for ease of access, I also typically pin the Screenshots folder to the dock
 
 ![Screenshots folder pinned to the Mac dock](/images/Pasted%20image%2020260330212424.png)
 
-### Open the Shortcuts app
+## Open the Shortcuts app
 
 Next we're going to create a macOS shortcut that takes an interactive screenshot, saves it, and then uses Apple Intelligence to generate a descriptive filename and rename the file automatically.
 
@@ -75,15 +73,15 @@ That's it — when you run the shortcut, you'll be able to select your screensho
 
 ![Screenshots with AI-generated descriptive filenames](/images/2026-03-30_21-24-22.png)
 
-### But that's not all
+## But that's not all
 
 Now you have the file with a descriptive title in a dedicated screenshot folder of your choice, and it's also saved on your clipboard. That means you can immediately paste it, or use a clipboard manager to paste it from your clipboard history later on. This is *incredibly* convenient.
 
-### Just a few more details
+**Just a few more details**
 
 Now that you have the power, how do you make it easy to remember and access? I recommend turning off your default keyboard shortcut (Shift + ⌘ + 4) and assigning it instead to the macOS shortcut you just created. This works best for me, since I've always used the default keyboard shortcut for screenshots, but this is totally optional. You could just add it to the dock, pin it to the menu bar or add it to the services menu. Or all of these if you'd like.
 
-#### Keyboard shortcut setup 
+**Keyboard shortcut setup** 
 
 First, you'll want to be sure to deactivate your default keyboard shortcut for taking a screenshot of a selected area, so you can assign it to the new shortcut you just created. Be aware that there's a specific order to follow when you do this to make it work reliably.
 
