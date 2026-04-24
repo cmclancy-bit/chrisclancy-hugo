@@ -14,37 +14,37 @@ emoji: 📸
 
 ## Use Shortcuts and Apple Intelligence to take, access and organize your screenshots like a pro
 
-Don't let your screenshots pile up on the Desktop or languish in some random folder with nothing more than a timestamp to distinguish them from one another. If you have an Apple Silicon-powered Mac (M1+), you can use the Shortcuts app and on-device AI to have your Mac handle your screenshots in the most intelligent way possible — organized and easily accessible from anywhere.
+Don't let your screenshots pile up on the Desktop or languish in some random folder with nothing more than a timestamp to tell them apart. If you have an Apple Silicon Mac (M1+), you can use the Shortcuts app and on-device AI to have your Mac handle naming and saving your screenshots automatically.
 
 ---
 
 ## Clutter abounds. And there's no good reason for it.
 
-I take hundreds of screenshots every day, and until recently those files littered my desktop creating visual and mental clutter. It was hard to justify spending the time to clean them up and often I'd just resort to deleting everything and then realize later on that it actually would have been valuable to have a reference of some of the work I'd done earlier in the week. I'll be going much more in-depth about versioning in another post.
+I take hundreds of screenshots every day, and until recently those files were all over my desktop creating visual and mental clutter. It was hard to justify spending the time to clean them up and often I'd just end up deleting everything to realize later on that it actually would have been valuable to have a reference of some of the work I'd done earlier in the week. I'll be going more in-depth about versioning in another post.
 
-My point, is that all of this isn't necessary. Your computer was meant to take care of this on your behalf. So many of us have spent our careers working on computers that seem kind of "compromised" when it comes to these kinds of inconveniences. After awhile it's just something that learn to accept.
+My point is that your computer should take care of this for you. Most of us have spent our careers working on computers that seem kind of "compromised" when it comes to these kinds details. After awhile it's just something you learn to accept.
 
 ## How it's actually supposed to work
 
-Unless you've been living under a rock (or you're a Windows or Linux user), you probably already know that the macOS has a number of ways you can automate a complex task. It's just that until *very* recently it could require a lot of trial and error. AppleScript, Automator, and shell scripting have been around for decades, but macOS Shortcuts and AI (literally everywhere) has sparked a completely new way of looking at and using these tools.
+Unless you've been living under a rock (or you're a Windows or Linux user), you probably already know that macOS has many ways you can automate a complex task. It's just that until *very* recently it could require a lot of trial and error. AppleScript, Automator, and shell scripting have been around for decades, but macOS Shortcuts and AI have sparked a completely new way of looking at and using these tools.
 
 **Start by figuring out where you want to store screenshots**
 
-*This one thing* is probably the most important step you can take to clean up the clutter. If you don't do anything else, this one thing will keep things far more organized, and that is being intentional about where you put your screenshots in the first place.
+*This one thing* is probably the most important step you can take to clean up the clutter. It's just being intentional about where you put your screenshots in the first place.
 
 By default, your Mac will dump screenshots on the desktop to add to what's likely already a cluttered mess to begin with. Because screenshots are images, and images are a kind of document, I choose to put mine in the Documents folder in my iCloud Drive. This gets them off the Desktop and into a more logical place where they'll also get backed up automatically.
 
 ![Screenshots folder saved in iCloud Drive Documents](/images/Pasted%20image%2020260330214824.png)
 
-Just for ease of access, I also typically pin the Screenshots folder to the dock.
+For ease of access, I like to keep my Screenshots folder in the dock.
 
 ![Screenshots folder pinned to the Mac dock](/images/Pasted%20image%2020260330212424.png)
 
 ## Open the Shortcuts app
 
-Next we're going to create a macOS shortcut that takes an interactive screenshot, saves it, and then uses Apple Intelligence to generate a descriptive filename and rename the file automatically.
+Next we're going to create a macOS shortcut that takes an interactive screenshot, saves it, and then uses AI to generate a descriptive file name and rename it automatically.
 
-If this seems too time consuming or you'd rather just cut to the chase, feel free to [download this shortcut](https://www.icloud.com/shortcuts/869172390aaf4564abe3d757b945c200) and switch up the file path to work with your setup.
+If this seems too time consuming or you'd rather just cut to the chase, you can [download the shortcut](https://www.icloud.com/shortcuts/869172390aaf4564abe3d757b945c200) and switch up the file path to work with your setup.
 
 1. Open the **Shortcuts** app on your Mac and create a new shortcut.
 2. Name it **Screenshot Saver**, or whatever you like.
@@ -100,6 +100,6 @@ First, you'll want to be sure to deactivate your default keyboard shortcut for t
 ![Keyboard shortcut assignment for Screenshot Saver in macOS System Settings](/images/Saver_Shortcut.png)
 ## For some perspective
 
-This workflow isn't something that would have been possible, *or even imaginable*, just a few years ago. The bigger story here is that in many ways, AI can really empower our work in big and small ways that make computers more useful than they've ever been before. And I think it can be easy to lose sight of this and get caught up in the hype or "doomerism" that we're constantly being subjected to around AI.
+This workflow isn't something that would have been possible, *or even imaginable*, just a few years ago. The bigger story here is that in many ways, AI can really empower our work in big and small ways that make computers more useful than they've ever been before.
 
-There are incredibly legitimate and useful AI-powered tasks that you can use to make your life easier and more organized, and increasingly they'll be powered on device, just like this one.
+There are already loads of incredibly legitimate and useful AI-powered tasks that you can use to make your life easier and more organized. And increasingly they'll be powered on device, just like this one.
