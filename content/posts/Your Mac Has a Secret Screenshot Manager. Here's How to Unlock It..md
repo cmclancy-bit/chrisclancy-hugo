@@ -53,7 +53,7 @@ If this seems too time consuming or you'd rather just cut to the chase, feel fre
 5. Add a **Copy to Clipboard** action. This will automatically receive the **Screenshot** from the previous step, so you'll have it on your clipboard for pasting later.
 6. Add a **Save File** action. Set it to save the **Screenshot** to the **Screenshots** folder you set up previously. Turn off **Ask Where to Save**, leave the Subpath at its default, and enable **Overwrite If File Exists**.
 7. Add the **Get Detail of File** action. Set it to get **Detail** from the **Saved File** output of the previous step.
-8. Add a **Use On Device model** action (aka Apple Intelligence). In the prompt field, type: `"Create a short, descriptive file name from the"` and then insert the **Screenshot** variable. After it, add: `"Do not enclose in quotes."` **Note:** When choosing a model you may need to make adjustments. **Extension: ChatGPT** is typically more reliable, **On-Device** is faster, and **Private Cloud Compute** is typically somewhere in between.
+8. Add a **Use On Device model** action (aka Apple Intelligence). In the prompt field, type: `"Create a short, descriptive file name from the"` and then insert the **Screenshot** variable. After it, add: `"Do not enclose in quotes."` **Note:** When choosing a model you may need to make adjustments. **Extension: ChatGPT** is more reliable, **On-Device** is faster, and **Private Cloud Compute** is typically somewhere in between.
 9. Turn off **Follow Up** and set Output to **Text**. This sends your screenshot to Apple's on-device/private cloud model to generate the descriptive filename.
 10. Add a **Text** action. Insert the **Response** variable from the Apple Intelligence step. This captures the AI-generated filename as a clean text value for the next action.
 11. Add a **Rename File** action. Set it to rename the **Saved File** to the **Text** output from the previous step. This applies the AI-generated name to your screenshot file.
@@ -81,6 +81,8 @@ Now you have the file with a descriptive title in a dedicated screenshot folder 
 **Just a few more details**
 
 Now that you have the power, how do you make it easy to remember and access? I recommend turning off your default keyboard shortcut (Shift + ⌘ + 4) and assigning it instead to the macOS shortcut you just created. This works best for me, since I've always used the default keyboard shortcut for screenshots, but this is totally optional. You could just add it to the dock, pin it to the menu bar or add it to the services menu. Or all of these if you'd like.
+
+One caveat to be aware of is that the responsiveness of your shortcut can vary depending on a few factors. The model you choose plays a big role, and may be slower or faster depending on your Mac and network speeds. If the shortcut is less responsive than you'd like, switch the model and try again.
 
 **Keyboard shortcut setup** 
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/quick-take.md",
+                "file": "content/posts/Your Mac Has a Secret Screenshot Manager. Here's How to Unlock It..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "quick-take"
+              "title": "Your Mac Has a Secret Screenshot Manager. Here's How to Unlock It."
             }
           }
         ]
@@ -187,6 +187,7 @@
   },
   "active": "2f475c37fdc71dd5",
   "lastOpenFiles": [
+    "templates/quick-take.md",
     "templates/standard-post.md",
     "content/posts/Your Mac Has a Secret Screenshot Manager. Here's How to Unlock It..md",
     "content/posts/What's the deal with AI automation?.md",
@@ -221,7 +222,6 @@
     "Untitled 2.md",
     "Untitled 1.md",
     "content/ai/_index.md",
-    "content/etc/_index.md",
-    "templates/quick-take.md"
+    "content/etc/_index.md"
   ]
 }
