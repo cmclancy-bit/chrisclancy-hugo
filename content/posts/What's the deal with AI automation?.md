@@ -2,13 +2,13 @@
 title: What's the deal with AI automation?
 slug: whats-the-deal-with-ai-automation
 date: 2026-04-19
-draft: true
-description: Thinking through about what AI means for automation, organization, content generation, and everything in between.
+draft: false
+description: Thinking through what AI means for automation, organization, content generation, and everything in between.
 tags:
   - AI
   - Productivity
   - Opinion
-image: ""
+image: /images/Claude.png
 emoji: ✍️
 ---
 
@@ -35,6 +35,8 @@ First, let's address the elephant in the room. What's AI actually good for when 
 That being said, it's not reliable. It excels at prediction based on an ever-changing set of stimuli that may not even be visible to the end user. I mean, none of us *really* know what's changed under the hood during any LLM update. 
 
 This fact, plus the dynamic nature of interaction with humans and other machines means it's adaptable but it might never say or do the same thing exactly the same way. In fact, it's best to assume it won't. LLMs are *probabilistic*, whereas traditional types of automation are *deterministic*. In a nutshell, this means that you need to choose the right tool for the job.
+
+![A terminal window showing an automated script running](/images/Code.png)
 
 ## Automation begets automation
 
