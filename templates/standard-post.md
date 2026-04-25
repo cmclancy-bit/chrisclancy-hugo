@@ -1,19 +1,22 @@
 ---
-title: "<% tp.file.title %>"
+title: <% tp.file.title %>
+slug: 
 date: <% tp.date.now("YYYY-MM-DD") %>
 draft: true
 description: ""
 tags: []
-image: ""
-emoji: "✍️"
+image:
+emoji: ✍️
 ---
 
 <!--
   CHECKLIST BEFORE PUBLISHING:
   [ ] Title is clear and specific
+  [ ] Slug filled in (lowercase, hyphenated, no punctuation)
   [ ] Description filled in (shows on homepage card)
   [ ] Tags added
-  [ ] Image or emoji set
+  [ ] Image or emoji set (hero image: 1200×630px recommended)
+  [ ] All inline images sized appropriately (max 1200px wide)
   [ ] draft: changed to false
 -->
 

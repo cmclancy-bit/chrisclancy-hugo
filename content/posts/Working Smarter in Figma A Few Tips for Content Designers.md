@@ -1,5 +1,6 @@
 ---
 title: 10 Tips to instantly sharpen your content design workflow in Figma
+slug: 10-tips-to-sharpen-your-content-design-workflow-in-figma
 date: 2026-03-29
 draft: false
 description: ""
