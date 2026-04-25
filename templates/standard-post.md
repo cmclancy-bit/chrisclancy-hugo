@@ -1,6 +1,6 @@
 ---
 title: <% tp.file.title %>
-slug: 
+slug:
 date: <% tp.date.now("YYYY-MM-DD") %>
 draft: true
 description: ""
