@@ -7,18 +7,10 @@ description: Thinking through what AI means for writing, design, and everything 
 tags:
   - AI
   - Productivity
+  - Opinion
 image: ""
 emoji: ✍️
 ---
-
-<!--
-  CHECKLIST BEFORE PUBLISHING:
-  [ ] Title is clear and specific
-  [ ] Description filled in (shows on homepage card)
-  [ ] Tags added
-  [ ] Image or emoji set
-  [ ] draft: changed to false
--->
 
 ## AI is expensive, so why is everyone suddenly trying to use it for all sorts of automation?
 
@@ -28,7 +20,11 @@ The problem is that for all it's incredible capabilities AI isn't good at everyt
 
 The good news is that it doesn't have to be this way. Learning when to employ AI is at least as important as knowing how. In this article, I'm going to get into this by breaking down where using AI is, and is not helpful, and try to reframe and restore a sense of sanity around AI automation amid all the hype.
 
----
+## First, why automation?
+
+Automation is a term that gets thrown around a lot since LLMs first started to hit the mainstream. It's an easy umbrella term for having a machine do your bidding without intervention. And that's not an inaccurate way to describe it.
+
+But it's also important to understand the distinction between LLMs and deterministic forms of automation. Once you start framing it that way you realize how different they actually are, and you'll also begin to consider the ways that they complement one another.
 
 ## What it is, and what it isn't
 
@@ -36,13 +32,7 @@ First, let's address the elephant in the room. What's AI actually good for when 
 
 That being said, it's not reliable. It excels at prediction based on an ever-changing set of stimuli that may not even be visible to the end user. I mean, none of us *really* know what's changed under the hood during any LLM update. This fact, plus the dynamic nature of interaction with humans and other machines means it's adaptable but it might never say or do the same thing exactly the same way. In fact, it's best to assume it won't.
 
-LLMs are *probabilistic*, where as traditional types of automation are *deterministic*. In a nutshell, this means that you need to choose right tool for the job. 
-
-## First, why automation?
-
-Automation is a term that gets thrown around a lot since LLMs first started to hit the mainstream. It's an easy umbrella term for having a machine do your bidding without intervention. And that's not an inaccurate way to describe it.
-
-But it's also important to understand the distinction between LLMs and deterministic forms of automation. Once you start framing it that way you realize how different they actually are, and you'll also begin to consider the ways that they compliment one another.
+LLMs are *probabilistic*, whereas traditional types of automation are *deterministic*. In a nutshell, this means that you need to choose the right tool for the job.
 
 ## Automation begets automation
 
@@ -52,15 +42,15 @@ You don't need to write applications for an OS to make a huge impact on your wor
 
 For example, I use a Mac. This means I have "nix" based command line along with all of the power that it commands, right under the hood. But among average computer users, and enthusiasts alike – I can't write a very useful bash script. I just haven't committed enough time to learn the skills required to do something like that, and honestly I have more important things I'd rather do.
 
-This is where leveraging AI changes everything. You know what you need to get done, and you have just enough tacit knowledge about the tools to describe it. Then you let AI write and test the script for you. Suddenly, you're running daily automations that set up your workspace, and create new artifacts with specific formatting and characteristics without ever thinking about it. It just happens everyday, automatically. You burned some tokens, and now you have a tool you can use for free for as long you need it.
+This is where leveraging AI changes everything. You know what you need to get done, and you have just enough tacit knowledge about the tools to describe it. Then you let AI write and test the script for you. Suddenly, you're running daily automations that set up your workspace, and create new artifacts with specific formatting and characteristics without ever thinking about it. It just happens everyday, automatically. You burned some tokens, and now you have a tool you can use for free for as long as you need it.
 
 ### So what's next?
 
 Generation. Take what I said about being limited only by your imagination. So what do you do next? You ask the LLM to imagine ways that you can leverage your computer in ever-more creative ways. Creative ways that are powered by repeatable, LLM-generated automations.
 
-I believe that in the future, we're all going to get a lot better at documenting the ways that we get things done, if for no other reason that to inform AI in ways that will make them build exactly what you need. These machines are not "thinking", sentient beings with agency or motivations. They exist to make our live easier, and better and it's time that we are started getting used to thinking of them in this way.
+I believe that in the future, we're all going to get a lot better at documenting the ways that we get things done, if for no other reason that to inform AI in ways that will make them build exactly what you need. These machines are not "thinking", sentient beings with agency or motivations. They exist to make our lives easier and better, and it's time we started getting used to thinking of them in this way.
 
-The novelty, and hype may still be in full swing, but the closer you get to this technology, the more you realize what it is, and what it is not. And that makes all the difference.
+The novelty and hype may still be in full swing, but the closer you get to this technology, the more you realize what it is, and what it is not. And that makes a huge difference.
 
 
 

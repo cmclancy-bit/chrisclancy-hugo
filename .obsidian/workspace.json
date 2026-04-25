@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Finally, there's a way to make your Apple Home reliable.md",
+                "file": "content/posts/What's the deal with AI automation?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finally, there's a way to make your Apple Home reliable"
+              "title": "What's the deal with AI automation?"
             }
           }
         ]
@@ -187,18 +187,18 @@
   },
   "active": "2f475c37fdc71dd5",
   "lastOpenFiles": [
-    "templates/standard-post.md",
     "templates/quick-take.md",
+    "templates/standard-post.md",
+    "content/posts/What's the deal with AI automation?.md",
     "content/posts/Finally, there's a way to make your Apple Home reliable.md",
+    "content/posts/Figma pro tip share links like a boss.md",
+    "content/posts/Working Smarter in Figma A Few Tips for Content Designers.md",
     "static/images/HAkit.png",
     "content/posts/Your Mac Has a Secret Screenshot Manager. Here's How to Unlock It..md",
-    "content/posts/What's the deal with AI automation?.md",
     "Next.md",
     "content/tags/macos/_index.md",
     "content/tags/macos",
     "content/tags",
-    "content/posts/Figma pro tip share links like a boss.md",
-    "content/posts/Working Smarter in Figma A Few Tips for Content Designers.md",
     "themes/chrisclancy/layouts/_default/terms.html",
     "public/404.html",
     "themes/chrisclancy/layouts/404.html",
