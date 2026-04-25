@@ -8,7 +8,7 @@ tags:
   - AI
   - Productivity
   - Opinion
-image: /images/Claude.png
+image: /images/Code.png
 emoji: ✍️
 ---
 
@@ -36,7 +36,7 @@ That being said, it's not reliable. It excels at prediction based on an ever-cha
 
 This fact, plus the dynamic nature of interaction with humans and other machines means it's adaptable but it might never say or do the same thing exactly the same way. In fact, it's best to assume it won't. LLMs are *probabilistic*, whereas traditional types of automation are *deterministic*. In a nutshell, this means that you need to choose the right tool for the job.
 
-![A terminal window showing an automated script running](/images/Code.png)
+![A terminal window showing an automated script running](/images/Claude.png)
 
 ## Automation begets automation
 
