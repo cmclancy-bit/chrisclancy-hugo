@@ -670,3 +670,29 @@ nav a:hover  { background: var(--surface); }
 
 /* ── SYNTAX HIGHLIGHT OVERRIDE (dark) ────────────────────── */
 .chroma { background: var(--surface2) !important; }
+
+/* ── LIGHTBOX ─────────────────────────────────────────────── */
+
+.prose img, .single-hero-img img { cursor: zoom-in; }
+
+.lightbox {
+  display:         none;
+  position:        fixed;
+  inset:           0;
+  z-index:         1000;
+  background:      rgba(0, 0, 0, 0.88);
+  align-items:     center;
+  justify-content: center;
+  padding:         1.5rem;
+}
+
+.lightbox.open { display: flex; }
+
+.lightbox img {
+  max-width:  90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 6px;
+  cursor:     zoom-out;
+  box-shadow: 0 8px 48px rgba(0,0,0,0.6);
+}
