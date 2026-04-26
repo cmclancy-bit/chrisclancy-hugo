@@ -696,3 +696,20 @@ nav a:hover  { background: var(--surface); }
   cursor:     zoom-out;
   box-shadow: 0 8px 48px rgba(0,0,0,0.6);
 }
+
+.lightbox-close {
+  position:   fixed;
+  top:        1.25rem;
+  right:      1.5rem;
+  background: none;
+  border:     none;
+  color:      #fff;
+  font-size:  1.75rem;
+  line-height: 1;
+  cursor:     pointer;
+  opacity:    0.75;
+  padding:    0.25rem 0.5rem;
+  z-index:    1001;
+}
+
+.lightbox-close:hover { opacity: 1; }

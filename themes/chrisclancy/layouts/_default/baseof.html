@@ -17,6 +17,7 @@
   {{ partial "footer.html" . }}
 
   <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close image">&#x2715;</button>
     <img id="lightbox-img" src="" alt="" />
   </div>
 
@@ -45,6 +46,7 @@
         });
       });
 
+      document.getElementById('lightbox-close').addEventListener('click', close);
       lightbox.addEventListener('click', close);
       lightboxImg.addEventListener('click', function(e) { e.stopPropagation(); });
       document.addEventListener('keydown', function(e) {
