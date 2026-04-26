@@ -1,11 +1,17 @@
 # Claude Code Instructions — chrisclancy-hugo
 
 ## Model delegation
-When making code changes, use the `generate_code` tool (Gemma 4, local) to
-write the implementation. Use your own reasoning for:
-- Planning what changes to make
-- Reviewing Gemma's output for correctness before applying it
-- Deciding when changes are ready to commit and push to GitHub
+Do NOT use `generate_code` (Gemma) for Hugo templates, CSS, or any code that
+depends on the existing codebase. Gemma lacks context about the theme's CSS
+classes and Hugo conventions, and its output will require full rewrites.
+
+Use `generate_code` only for self-contained tasks that don't depend on existing
+project code, such as:
+- Standalone bash or shell scripts (e.g. image resizing, file renaming utilities)
+- One-off Python or JS utilities described from scratch
+- Boilerplate that has no dependency on the theme or Hugo
+
+For everything else — templates, CSS, config, content edits — write it directly.
 
 ## Project overview
 This is a Hugo static site. Key conventions:
@@ -16,11 +22,9 @@ This is a Hugo static site. Key conventions:
 
 ## Workflow for style/layout changes
 1. Identify the relevant template or stylesheet file
-2. Use `generate_code` to write the change, providing the current file content
-   as context in the prompt
-3. Review the output, then apply it
-4. Run `hugo server` locally to verify before committing
-5. Commit and push to GitHub only after review
+2. Make changes directly — do not route through Gemma
+3. Run `hugo server` locally to verify before committing
+4. Commit and push to GitHub only after review
 
 ## Git
 - Always write a clear, descriptive commit message
