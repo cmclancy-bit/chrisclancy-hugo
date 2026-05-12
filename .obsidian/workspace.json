@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/What's the deal with AI automation?.md",
+                "file": "content/posts/Working Smarter in Figma A Few Tips for Content Designers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What's the deal with AI automation?"
+              "title": "Working Smarter in Figma A Few Tips for Content Designers"
             }
           }
         ]
@@ -187,14 +187,14 @@
   },
   "active": "2f475c37fdc71dd5",
   "lastOpenFiles": [
+    "content/posts/Figma pro tip share links like a boss.md",
+    "content/posts/Finally, there's a way to make your Apple Home reliable.md",
+    "content/posts/What's the deal with AI automation?.md",
     "static/images/WarmingUpBlk.png",
     "static/images/Code.png",
     "templates/standard-post.md",
     "static/images/Claude.png",
-    "content/posts/What's the deal with AI automation?.md",
     "templates/quick-take.md",
-    "content/posts/Finally, there's a way to make your Apple Home reliable.md",
-    "content/posts/Figma pro tip share links like a boss.md",
     "content/posts/Working Smarter in Figma A Few Tips for Content Designers.md",
     "static/images/HAkit.png",
     "content/posts/Your Mac Has a Secret Screenshot Manager. Here's How to Unlock It..md",
@@ -216,7 +216,6 @@
     "public/images/Share-Like-A-Boss.png",
     "static/images/Share-Like-A-Boss.png",
     "public/images/Clockwork.png",
-    "static/images/Clockwork.png",
     "CLAUDE.md",
     "SETUP.md",
     "content/portfolio/_index.md",

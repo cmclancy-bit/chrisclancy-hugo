@@ -107,7 +107,7 @@ Figma has a lot of keyboard shortcuts. You don't need most of them. Here are the
 - **`Cmd + Option + G`** — wraps selected elements in a frame, handy when you need to componentize something quickly.
 - **`Cmd + Z`** — yes, obviously, but use it liberally. Figma's undo history is deep and forgiving.
 
-None of these are secrets, but making them muscle memory is the difference between flowing through a design and constantly stopping to think about *how* to do the next thing.
+None of these are secrets, but making them muscle memory is the difference between staying in flow and constantly stopping to think about *how* to do the next thing.
 
 ---
 
