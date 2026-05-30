@@ -49,13 +49,43 @@ This is really the best part of the setup. You'll be running open source softwar
 
 The only question you need to ask yourself is what is it you want most out of your home lab? Whatever it is, there's an open source solution, starting with the most important part, the operating system (OS).
 
-If you're like most people the thought of running a "server" can be intimidating, and especially when that server is going to be running Linux. This is where Claude really changes the entire equation, but we'll get to that later.
+If you're like most people the thought of running a "server" can be intimidating, and especially when that server running Linux. This is where Claude really changes the entire equation, but we'll get to that later.
 
 It's probably better in this case not to think about the software you need, but instead, ask yourself what you want to do with your setup in the first place. The solutions are out there, and readily available, but to get started you need to decide this first.
 
+#### Wait, what's it good for?
 
+This is the best part. Deciding how you're going to upgrade yourself
 
+- **Media servers:** Replace streaming services with locally hosted content. This typically requires some extra storage, but well worth it if you're looking dump your music and video subscriptions. This the number one use cases for most people, and only requires a little additional hardware and effort to get set up.
+- **Ad blocking and privacy:** If you're anything like me it creeps you out that so much of your online life is tracked, recorded and sold to the highest bidder. This is one way to take more control of your online life.
+- **Home automation:** Probably the best use case if you're looking to get into automation in the least expensive, most hassle-free, privacy-first way possible. 
+- **Sync and backup:** Sure you *could* buy a NAS but plugging in a cheap external hard drive to your home server is going to get you way more bang for your buck. Backup your files and access them from multiple machines without putting your sensitive data in a cloud where it could get harvested for training or even more nefarious purposes.
+- **VPN and remote access:** Run software that let's you access all of the aforementioned services when you're away from home. Imagine streaming that show you've been meaning to watch for weeks on the train ride to work, but 100% ad free, or grabbing a file from your desktop at home from another country.
 
-## What to take away
+## Sounds pretty great, but how?
 
-*End with something actionable, a summary, or a thought that sticks.*
+This is where the magic happens. 
+
+#### Step 1: Get a Claude Pro subscription
+
+You absolutely need Claude Code to make this process as easy as possible. The reason is simple. Claude Code can "see" and interact with the computers on your network, and this is the part that makes this process worth doing in the first place.
+
+For now at least, you'll need a Claude Pro subscription. Pro is required for Claude Code (or Cowork but that's a topic for another day). You can get an annual subscription at a discount if you're willing to pay in advance.
+
+Next, be sure to install the Claude app, or the Claude CLI. You can download it from the claude.ai website, or install via, Brew on a Mac, if you're comfortable using the command line.
+
+#### Step 2: Setting up your server
+
+- Use your primary computer to download the Ubuntu Server installer.
+- You'll also need to download Balena Etcher (or a similar utility) to create the Ubuntu install disk.
+- The installer needs to live on a 16GB or larger thumb drive, but if you're like me, you probably already have one of these in a drawer somewhere. 
+- Plugin in your new server to power and Ethernet. Connect your Ethernet to a switch (if you have one), or any open LAN port on your router.
+- Once you've created the installer, plug the thumb drive into your new server. If you're installing on a Mac you'll need to hold the Option (⌥) key when you hit the power button. If you have a PC you'll need to hold one of the 'F' keys or Delete to get into the BIOS screen. This varies from PC to PC depending on the brand, so look it up if you're unsure. This is how you tell your new server to boot from the Ubuntu installer thumb drive you just created.
+- Once the server boots follow the prompts to select the boot drive and the drive where you want to install Ubuntu. I could attempt to go through every detailed step of this process, but there already plenty of fantastic resources on the subject and it's fairly intuitive. If you have questions or issues you can always chat with Claude (or another LLM) on your phone or main computer.
+- After the install, your new Ubuntu server should start up, and you'll be greeted by the command line. Fear not, this is where it really gets interesting.
+
+#### Step 3: Claude takes the wheel
+
+ Be sure you've installed Claude Code on your primary computer, and that it's connected to the same network as the new server (for example, you're on your laptop connected via wifi and your server is plugged into the router).
+
