@@ -24,12 +24,12 @@ emoji: ✍️
 
 ## The idea in one sentence
 
- Claude Code can set up and maintain your home lab like a pro. With just a small investment in hardware, and free downloads Claude can do your install and take care of your system for little to no money.
+ Claude Code can set up and maintain your home lab like a pro. With just a small investment in hardware, and free, open source downloads, Claude can do your install and take act as your system admin for little to no money.
 
 
 ---
 
-## Professional-level services on your terms
+## Professional-grade services on your terms
 
 You don't need to be an expert, and you don't need to hire one, you just need to do some initial setup and let Claude take care of the rest. 
 
@@ -39,15 +39,15 @@ You don't need to be an expert, and you don't need to hire one, you just need to
 
 First, you'll need a dedicated machine to make the process as seamless as possible – ideally a small, low-power mini computer with an Intel or AMD processor. Anything that will run Linux will do, so the choices are kind of limitless, but I'd recommend an older Mac Mini for this.
 
-I went with a 2014 Intel Mac mini with a Core i7 processor and 16GB of RAM. More RAM is better if you can swing it, since that will let run more services without bogging down the system.
+I went with a 2014 Intel Mac mini with a Core i7 processor and 16GB of RAM. More RAM is better if you can swing it, since that will allow it to run more services without bogging down the system.
 
-Built-in Ethernet is also highly recommended, especially if you can put the server near your router or a wired switch. Since the machine needs to be connected to your network an powered on all the time, Ethernet is preferred to any type of wireless connection.
+Built-in Ethernet is also highly recommended, especially if you can put the server near your router or a wired switch. Because the machine needs to be connected to your network and powered on 24/7, Ethernet is preferred over any type of wireless connection.
 
 #### What software do you need?
 
 This is really the best part of the setup. You'll be running open source software. It won't cost you a dime, and it's actively developed and distributed by an army of enthusiasts.
 
-The only question you need to ask yourself is what is it you want most out of your home lab? Whatever it is, there's an open source solution, starting with the most important part, the operating system (OS).
+The only question you need to ask yourself is what do you want your home lab to do for you? Whatever it is, there's an open source solution, starting with the most important part, the operating system (OS).
 
 If you're like most people the thought of running a "server" can be intimidating, and especially when that server running Linux. This is where Claude really changes the entire equation, but we'll get to that later.
 
@@ -55,35 +55,74 @@ It's probably better in this case not to think about the software you need, but 
 
 #### I'm intrigued, tell me more
 
-This is the best part. Deciding how you're going to upgrade yourself.
+This is the best part. Shopping for all the new (free) tools you want for your setup.
 
-- **Media servers:** Replace streaming services with locally hosted content. This typically requires some extra storage, but it's well worth it if you're looking dump your music and video subscriptions. This the number one use cases for most people, and only requires a little additional hardware and effort to set up.
+- **Media servers:** Replace streaming services with locally hosted content. This typically requires some extra storage, but it's well worth it if you're looking dump your music and video subscriptions. This the number one use case for most people, and only requires a little additional hardware and effort to set up.
 - **Ad blocking and privacy:** If you're anything like me it creeps you out that so much of your online life is tracked, recorded and sold to the highest bidder. Running a self-hosted ad blocker and VPN is one way to take more control of your digital life.
 - **Home automation:** It's probably the best way to get into automation in the least expensive, most hassle-free, privacy-first way possible. 
-- **Sync and backup:** Sure you *could* buy a NAS but plugging in a cheap external hard drive to your home server is going to get you way more bang for your buck. Back up your files and access them from multiple machines without putting your sensitive data in a cloud where it could get harvested for training or even more nefarious purposes.
+- **Sync and backup:** Sure you *could* buy a NAS, but plugging in a cheap external hard drive to your home server is going to get you way more bang for your buck. Back up your files and access them from multiple machines without putting your sensitive data in a cloud where it could get harvested for training or even more nefarious purposes.
 - **Remote access:** Run software that let's you access all of the aforementioned services when you're away from home. Imagine streaming that show you've been meaning to watch for weeks on the train ride to work – but 100% ad free, remotely accessing a Mac Mini and using it from an iPad at the coffee shop, or grabbing a file from your desktop at home while at work or in another country. So many possibilities!
+- **Containers:** You can run some pretty interesting and useful things inside a Docker container. For example, you can run a full-on version of Chrome that's 100% anonymous. Because you spin it up for one-time use it's ephemeral. You'll never use the same pattern twice. Combine that with a VPN and sites can't cookie or fingerprint you. Your browser is unique and it's running on a clean OS every time you use it. This can be incredibly helpful when your trying to avoid algorithmic price tracking and other forms of surveillance capitalism.
 
 ## Sounds pretty great, but how?
 
 #### Step 1: Get a Claude Pro subscription
 
-You absolutely need Claude Code to make this process as easy as possible. The reason is simple. Claude Code can "see" and interact with the computers on your network, and this is what makes this whole process worth doing in the first place.
+For now at least, you'll need a Claude Pro subscription. Pro is required to use Claude Code, and you absolutely do need Claude Code for this. The reason is simple. Claude Code can "see" and interact with the computers on your network, and this is what makes this whole process worth doing in the first place.
 
-For now at least, you'll need a Claude Pro subscription. Pro is required to use Claude Code. You can even get an annual subscription at a discount if you're willing to pay in advance. For what I use it for, it's work every penny.
-
-Next, be sure to install the Claude app, or Claude CLI. You can download it from the claude.ai website, or install via, Brew on a Mac, if you're comfortable using the command line.
+Next, be sure to install the Claude app, or Claude CLI. You can download it from the claude.ai website, or install via Brew on on macOS if you're comfortable using the command line.
 
 #### Step 2: Setting up your server
 
-- Use your primary computer to download the Ubuntu Server installer.
-- You'll also need to download Balena Etcher (or a similar utility) to create the Ubuntu install disk.
-- The installer needs to live on a 16GB or larger thumb drive, but if you're like me, you probably already have one of these in a drawer somewhere. 
+- Use your primary computer to download the Ubuntu Server installer ISO from Canonical at ubuntu.com.
+- You'll also need to download balenaEtcher (for macOS), or Rufus if you're using Windows to create the Ubuntu installer.
+- You'll also need an 8GB or larger thumb drive for the installer, but if you're like me, you probably already have one of these in a drawer somewhere. 
 - Plugin in your new server to power and Ethernet. Connect your Ethernet to a switch (if you have one), or any open LAN port on your router.
-- Once you've created the installer, plug the thumb drive into your new server. If you're installing on a Mac you'll need to hold the Option (⌥) key when you hit the power button. If you have a PC you'll need to hold one of the 'F' keys or Delete to get into the BIOS screen. This varies from PC to PC depending on the brand, so look it up if you're unsure. This is how you tell your new server to boot from the Ubuntu installer thumb drive you just created.
-- Once the server boots follow the prompts to select the boot drive and the drive where you want to install Ubuntu. I could attempt to go through every detailed step of this process, but there already plenty of fantastic resources on the subject and it's fairly intuitive. If you have questions or issues you can always chat with Claude (or another LLM) on your phone or main computer.
-- After the install, your new Ubuntu server should start up, and you'll be greeted by the command line. Fear not, this is where it really gets interesting.
+- Once you've created the installer, plug the thumb drive into your new server. To select the thumb drive as your boot drive you'll need to hold down a specific key on the keyboard until you see the boot options screen. If you're installing on a Mac hold the Option (⌥) key when you hit the power button. If you have a PC it varies from depending on the brand, so look it up if you're unsure. 
+- When the server boots, follow the prompts to select the drive where you want to install Ubuntu. I could go through every detailed step of this process, but there already plenty of fantastic resources on the subject (including the Ubuntu website itself) and it's fairly intuitive.
+- If you have questions or issues during the process you can always chat with Claude (or another LLM) on your phone or main computer.
+- After the install, your new Ubuntu server should start up, and you'll be greeted by the command line. Fear not, we're nearing the end of your part.
+- One more step before we can put Claude to work. We need to give it the IP address of the new server so it can talk to it on your behalf.
+- To get the address type ```hostname -I``` and then hit Enter.
+- You should see an address like 192.168.68.21, the sequence you see will depend on your network. This is the IP address of your server. Take note of it.
+- Finally, you'll need to go to your router and set a "static IP" address for the server so it will never change. Every router has a different UI, but most have this option. When you find the option, you should see a list of devices on your network along with their IP addresses. Look for the one that has the address we looked up in the previous step. Set it as static.
 
 #### Step 3: Claude takes the wheel
 
- Be sure you've installed Claude Code on your primary computer, and that it's connected to the same network as the new server (for example, you're on your laptop connected via wifi and your server is plugged into the router).
+ Next, make sure you've installed Claude Code on your primary computer, and that you're connected to the same network as the new server (for example, you're on a laptop connected via wifi and your server is plugged into the router via Ethernet).
+
+Open a command line application. On macOS the app you need is called Terminal. On Windows it's called Windows Terminal. Type ```claude```, hit Enter, and you're in business! Claude is waiting for your commands.
+
+The next step is to give Claude SSH access to the server. This process is called SSH key-based authentication (or just "SSH key setup"). It sets up your computer and the server so they remember each other so you (and Claude) can access the server and make changes without entering a password.
+
+Claude will walk you through this process. 
+
+Paste the following prompt into the terminal and hit Enter:
+
+``` I want to set up a self-hosted home server on Ubuntu. Help me install Docker and configure the following services using Docker Compose:
+
+- Pi-hole — DNS-level ad blocking for the whole network
+- Nginx Proxy Manager — reverse proxy with automatic SSL certificates so
+services are reachable by domain name (e.g. music.example.com)
+- Tailscale — VPN mesh so I can reach the server securely from anywhere (run
+it as a Docker container)
+- Navidrome — self-hosted music streaming server, accessible via the reverse
+proxy and exposed on port 4533
+- Jellyfin — self-hosted media server for movies and TV shows
+- Home Assistant — home automation hub
+- Uptime Kuma — dashboard to monitor whether all my services are up
+- Watchtower — automatically pull and restart updated container images on a
+nightly schedule
+- ARM (Automatic Ripping Machine) — rip CDs and DVDs automatically when
+inserted
+
+Before setting up services, walk me through SSH key-based authentication so I can log in to the server without a password.
+
+For each service, provide the docker-compose.yml snippet and any first-time setup steps. Make sure Navidrome's port binding is 0.0.0.0:4533 (not 127.0.0.1) so Tailscale traffic can reach it. Walk me through connecting from my phone via Tailscale once everything is running.
+
+```
+
+
+
+
 
