@@ -24,14 +24,14 @@ emoji: ✍️
 
 ## The idea in one sentence
 
- Claude Code can set up and maintain your home lab like a pro. With just a small investment in hardware, and a few free downloads Claude can do your install and ongoing admin for little to no money.
+ Claude Code can set up and maintain your home lab like a pro. With just a small investment in hardware, and free downloads Claude can do your install and take care of your system for little to no money.
 
 
 ---
 
-## Professional level services on your terms
+## Professional-level services on your terms
 
-You don't need to be an expert, you just do some initial setup and then let Claude care of the rest. 
+You don't need to be an expert, and you don't need to hire one, you just need to do some initial setup and let Claude take care of the rest. 
 
 ## How to get started
 
@@ -53,27 +53,25 @@ If you're like most people the thought of running a "server" can be intimidating
 
 It's probably better in this case not to think about the software you need, but instead, ask yourself what you want to do with your setup in the first place. The solutions are out there, and readily available, but to get started you need to decide this first.
 
-#### Wait, what's it good for?
+#### I'm intrigued, tell me more
 
-This is the best part. Deciding how you're going to upgrade yourself
+This is the best part. Deciding how you're going to upgrade yourself.
 
-- **Media servers:** Replace streaming services with locally hosted content. This typically requires some extra storage, but well worth it if you're looking dump your music and video subscriptions. This the number one use cases for most people, and only requires a little additional hardware and effort to get set up.
-- **Ad blocking and privacy:** If you're anything like me it creeps you out that so much of your online life is tracked, recorded and sold to the highest bidder. This is one way to take more control of your online life.
-- **Home automation:** Probably the best use case if you're looking to get into automation in the least expensive, most hassle-free, privacy-first way possible. 
-- **Sync and backup:** Sure you *could* buy a NAS but plugging in a cheap external hard drive to your home server is going to get you way more bang for your buck. Backup your files and access them from multiple machines without putting your sensitive data in a cloud where it could get harvested for training or even more nefarious purposes.
-- **VPN and remote access:** Run software that let's you access all of the aforementioned services when you're away from home. Imagine streaming that show you've been meaning to watch for weeks on the train ride to work, but 100% ad free, or grabbing a file from your desktop at home from another country.
+- **Media servers:** Replace streaming services with locally hosted content. This typically requires some extra storage, but it's well worth it if you're looking dump your music and video subscriptions. This the number one use cases for most people, and only requires a little additional hardware and effort to set up.
+- **Ad blocking and privacy:** If you're anything like me it creeps you out that so much of your online life is tracked, recorded and sold to the highest bidder. Running a self-hosted ad blocker and VPN is one way to take more control of your digital life.
+- **Home automation:** It's probably the best way to get into automation in the least expensive, most hassle-free, privacy-first way possible. 
+- **Sync and backup:** Sure you *could* buy a NAS but plugging in a cheap external hard drive to your home server is going to get you way more bang for your buck. Back up your files and access them from multiple machines without putting your sensitive data in a cloud where it could get harvested for training or even more nefarious purposes.
+- **Remote access:** Run software that let's you access all of the aforementioned services when you're away from home. Imagine streaming that show you've been meaning to watch for weeks on the train ride to work – but 100% ad free, remotely accessing a Mac Mini and using it from an iPad at the coffee shop, or grabbing a file from your desktop at home while at work or in another country. So many possibilities!
 
 ## Sounds pretty great, but how?
 
-This is where the magic happens. 
-
 #### Step 1: Get a Claude Pro subscription
 
-You absolutely need Claude Code to make this process as easy as possible. The reason is simple. Claude Code can "see" and interact with the computers on your network, and this is the part that makes this process worth doing in the first place.
+You absolutely need Claude Code to make this process as easy as possible. The reason is simple. Claude Code can "see" and interact with the computers on your network, and this is what makes this whole process worth doing in the first place.
 
-For now at least, you'll need a Claude Pro subscription. Pro is required for Claude Code (or Cowork but that's a topic for another day). You can get an annual subscription at a discount if you're willing to pay in advance.
+For now at least, you'll need a Claude Pro subscription. Pro is required to use Claude Code. You can even get an annual subscription at a discount if you're willing to pay in advance. For what I use it for, it's work every penny.
 
-Next, be sure to install the Claude app, or the Claude CLI. You can download it from the claude.ai website, or install via, Brew on a Mac, if you're comfortable using the command line.
+Next, be sure to install the Claude app, or Claude CLI. You can download it from the claude.ai website, or install via, Brew on a Mac, if you're comfortable using the command line.
 
 #### Step 2: Setting up your server
 
