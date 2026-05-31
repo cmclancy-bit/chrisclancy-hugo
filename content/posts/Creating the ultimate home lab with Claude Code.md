@@ -22,7 +22,6 @@ emoji: ✍️
   [ ] draft: changed to false
 -->
 
-## The idea in one sentence
 
  Claude Code can set up and maintain your home lab like a pro. With just a small investment in hardware, and free, open source downloads, Claude can do your install and take act as your system admin for little to no money.
 
@@ -99,22 +98,19 @@ Claude will walk you through this process.
 
 Paste the following prompt into the terminal and hit Enter:
 
-``` I want to set up a self-hosted home server on Ubuntu. Help me install Docker and configure the following services using Docker Compose:
+``` 
+I want to set up a self-hosted home server on Ubuntu. Help me install Docker and configure the following services using Docker Compose:
 
 - Pi-hole — DNS-level ad blocking for the whole network
 - Nginx Proxy Manager — reverse proxy with automatic SSL certificates so
 services are reachable by domain name (e.g. music.example.com)
-- Tailscale — VPN mesh so I can reach the server securely from anywhere (run
-it as a Docker container)
-- Navidrome — self-hosted music streaming server, accessible via the reverse
-proxy and exposed on port 4533
+- Tailscale — VPN mesh so I can reach the server securely from anywhere (run it as a Docker container)
+- Navidrome — self-hosted music streaming server, accessible via the reverse proxy and exposed on port 4533
 - Jellyfin — self-hosted media server for movies and TV shows
 - Home Assistant — home automation hub
 - Uptime Kuma — dashboard to monitor whether all my services are up
-- Watchtower — automatically pull and restart updated container images on a
-nightly schedule
-- ARM (Automatic Ripping Machine) — rip CDs and DVDs automatically when
-inserted
+- Watchtower — automatically pull and restart updated container images on a nightly schedule
+- ARM (Automatic Ripping Machine) — rip CDs and DVDs automatically when inserted
 
 Before setting up services, walk me through SSH key-based authentication so I can log in to the server without a password.
 
