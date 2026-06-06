@@ -319,7 +319,7 @@ nav a:hover  { background: var(--surface); }
 }
 
 .post-card:hover {
-  border-color: var(--red);
+  border-color: var(--text-muted);
   transform:    translateY(-2px);
 }
 
