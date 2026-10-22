@@ -50,14 +50,14 @@ The only question you need to ask yourself is what do you want your home lab to 
 
 If you're like most people the thought of running a "server" can be intimidating, and especially when that server running Linux. This is where Claude really changes the entire equation, but we'll get to that later.
 
-It's probably better in this case not to think about the software you need, but instead, ask yourself what you want to do with your setup in the first place. The solutions are out there, and readily available, but to get started you need to decide this first.
+It's probably better in this case not to think about the software you need, but instead, ask yourself **what you want to do with your setup in the first place**? The solutions are out there, and readily available, but to get started you need to decide this first.
 
 #### I'm intrigued, tell me more
 
 This is the best part. Shopping for all the new (free) tools you want for your setup.
 
-- **Media servers:** Replace streaming services with locally hosted content. This typically requires some extra storage, but it's well worth it if you're looking dump your music and video subscriptions. This the number one use case for most people, and only requires a little additional hardware and effort to set up.
-- **Ad blocking and privacy:** If you're anything like me it creeps you out that so much of your online life is tracked, recorded and sold to the highest bidder. Running a self-hosted ad blocker and VPN is one way to take more control of your digital life.
+- **Media servers:** Replace streaming services with locally hosted content. This typically requires some extra storage, but well worth it if you're looking dump your music and video subscriptions. This the number one use case for most people, and only requires a little additional hardware and effort to set up.
+- **Ad blocking and privacy:** If you're anything like me, it creeps you out that so much of your online life is tracked, recorded, and sold to the highest bidder. Running a self-hosted ad blocker and VPN is one way to take more control of your digital life.
 - **Home automation:** It's probably the best way to get into automation in the least expensive, most hassle-free, privacy-first way possible. 
 - **Sync and backup:** Sure you *could* buy a NAS, but plugging in a cheap external hard drive to your home server is going to get you way more bang for your buck. Back up your files and access them from multiple machines without putting your sensitive data in a cloud where it could get harvested for training or even more nefarious purposes.
 - **Remote access:** Run software that let's you access all of the aforementioned services when you're away from home. Imagine streaming that show you've been meaning to watch for weeks on the train ride to work – but 100% ad free, remotely accessing a Mac Mini and using it from an iPad at the coffee shop, or grabbing a file from your desktop at home while at work or in another country. So many possibilities!
@@ -67,7 +67,7 @@ This is the best part. Shopping for all the new (free) tools you want for your s
 
 #### Step 1: Get a Claude Pro subscription
 
-For now at least, you'll need a Claude Pro subscription. Pro is required to use Claude Code, and you absolutely do need Claude Code for this. The reason is simple. Claude Code can "see" and interact with the computers on your network, and this is what makes this whole process worth doing in the first place.
+For now at least, you'll need a Claude Pro subscription. This guide is oriented around Claude, but you can also use the equivalent from OpenAI or another provider. Pro is required to use the "code" version, and you absolutely do need this. The reason is simple. With a "harness" like Claude Code you can allow the LLM to "see" and interact with the computers on your network, and this is what makes this whole process worth doing in the first place.
 
 Next, be sure to install the Claude app, or Claude CLI. You can download it from the claude.ai website, or install via Brew on on macOS if you're comfortable using the command line.
 
