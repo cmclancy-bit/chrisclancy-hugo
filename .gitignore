@@ -2,3 +2,9 @@ public/
 resources/
 .hugo_build.lock
 .DS_Store
+
+# Local tool state — keep out of the public repo
+.wrangler/
+.claude/
+.obsidian/workspace.json
+2026-*-*.txt
